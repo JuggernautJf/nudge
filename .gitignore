@@ -137,3 +137,8 @@ dist
 
 # python virtual env
 venv/
+
+# Nudge data
+data/raw/
+data/cache/
+__pycache__/

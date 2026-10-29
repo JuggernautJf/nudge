@@ -1,0 +1,42 @@
+# Job categories for Nudge.
+#   queries:  search terms sent to Adzuna
+#   keywords: matched against job titles (lowercase) to tag listings
+# Add or remove categories freely; target = listings wanted per category.
+
+target_per_category: 300
+cities: ["Bangalore", "Mumbai", "Delhi", "Hyderabad", "Pune", "Chennai", "Kolkata"]
+
+categories:
+  customer_service_voice:
+    queries: ["voice process", "call center", "telecaller", "customer care executive"]
+    keywords: ["voice", "call cent", "telecall", "tele call", "inbound", "outbound", "customer care", "bpo"]
+  customer_service_nonvoice:
+    queries: ["non voice process", "chat support", "email support", "back office"]
+    keywords: ["non voice", "non-voice", "nonvoice", "chat support", "email support", "back office", "data entry"]
+  data_analyst:
+    queries: ["data analyst", "business analyst", "mis executive"]
+    keywords: ["data analyst", "business analyst", "mis ", "bi analyst", "reporting analyst", "power bi"]
+  data_scientist:
+    queries: ["data scientist", "machine learning engineer"]
+    keywords: ["data scien", "machine learning", "ml engineer", "ai engineer", "deep learning"]
+  web_developer:
+    queries: ["web developer", "full stack developer", "react developer", "php developer"]
+    keywords: ["web developer", "full stack", "fullstack", "frontend developer", "front end developer", "backend developer", "react", "php", "node", "wordpress"]
+  ui_ux_designer:
+    queries: ["ui ux designer", "product designer"]
+    keywords: ["ui/ux", "ui ux", "ux designer", "ui designer", "product designer", "ux researcher"]
+  graphic_designer:
+    queries: ["graphic designer", "visual designer"]
+    keywords: ["graphic", "visual designer", "motion designer", "illustrator"]
+  hr:
+    queries: ["hr executive", "recruiter", "talent acquisition"]
+    keywords: ["hr ", "human resource", "recruit", "talent acquisition", "hrbp", "payroll"]
+  content_writer:
+    queries: ["content writer", "copywriter"]
+    keywords: ["content writer", "copywriter", "copy writer", "technical writer", "content editor"]
+  accounting:
+    queries: ["accountant", "accounts executive", "tally"]
+    keywords: ["account", "tally", "gst", "finance executive", "bookkeep", "audit"]
+  sales_marketing:
+    queries: ["sales executive", "digital marketing"]
+    keywords: ["sales", "business development", "marketing", "seo", "social media"]
